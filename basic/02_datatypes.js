@@ -23,3 +23,5 @@ let isloggedIn = null
 // Objects
 console.log(typeof "lol")
 console.log(typeof age)
+console.log(typeof null)
+console.log(typeof undefined)
