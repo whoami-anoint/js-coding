@@ -7,4 +7,19 @@ console.log("Abishek")
 
 // code readability should be high
 
+let name = "anoint"
+let age = 24
+let isloggedIn = null
 
+
+// num => 2 to power 53
+// bigint
+// string ==> '' , ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
+// Objects
+console.log(typeof "lol")
+console.log(typeof age)
