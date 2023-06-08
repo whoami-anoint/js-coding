@@ -35,3 +35,7 @@ const myFunction = function(){
 myFunction()
 
 // console.log(typeof myFunction);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+// stack (Primitive), Heap (Non-Primitive)
+let myYoutubename = "Alpha Geek"
