@@ -39,3 +39,46 @@ myFunction()
 // ++++++++++++++++++++++++++++++++++++++++++++++++
 // stack (Primitive), Heap (Non-Primitive)
 let myYoutubename = "Alpha Geek"
+let anothername = myYoutubename
+// console.log(myYoutubename);
+// console.log("before:",anothername);
+anothername = "Coder"
+// console.log(myYoutubename);
+// console.log("after:",anothername);
+
+/* Note: 
+assign youtubename
+If anothername = myYoutubename,
+and change youtubename value but anothername remain same as previous
+and if anothername value changed, myYoutubename remain same.
+*/
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+// console.log(userOne.email);
+
+// let userTwo = {
+//     email: "user2@google.com",
+//     upi: "user2@ybl"
+// }
+
+// console.log(userTwo.email);
+
+// userOne.age = 23
+// console.log(userOne);
+
+let userTwo = userOne
+console.log("user2 before change:",userTwo);
+
+userOne.email = "anoint@google.com"
+console.log("user2 after change user1:",userTwo);
+
+/* But in dictionary
+When userTwo = userOne;
+if userTwo value changed,userOne value will also changed
+and if userOne value change, userTwo value will also changed
+
+It's called heap memory. We got reference in heap.
+*/
