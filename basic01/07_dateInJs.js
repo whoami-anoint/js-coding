@@ -42,3 +42,7 @@ latestDate = newDate.toLocaleString('default',{
 })
 console.log(latestDate);
 
+
+
+text = `Today is ${latestDate} as mentioned in above}`
+console.log(text);
