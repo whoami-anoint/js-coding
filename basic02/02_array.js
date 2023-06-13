@@ -19,5 +19,5 @@ const dc_heros = ["superman","flash","batman"]
 // const real_another_array = another_array.flat(Infinity)
 // console.log(real_another_array);
 
-// console.log(Array.isArray(marval_heros));
+console.log(Array.isArray(marval_heros));
 console.log(Array.from("Abishek"));
