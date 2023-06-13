@@ -10,7 +10,7 @@ const dc_heros = ["superman","flash","batman"]
 // const allHeros = marval_heros.concat(dc_heros)
 // console.log(allHeros);
 
-// const all_new_heros = [...marval_heros,...dc_heros]
+const all_new_heros = [...marval_heros,...dc_heros]
 // console.log(all_new_heros);
 
 // ... is most preferable way to concat two arrays
@@ -19,5 +19,5 @@ const dc_heros = ["superman","flash","batman"]
 // const real_another_array = another_array.flat(Infinity)
 // console.log(real_another_array);
 
-console.log(Array.isArray(marval_heros));
+// console.log(Array.isArray(marval_heros));
 console.log(Array.from("Abishek"));
