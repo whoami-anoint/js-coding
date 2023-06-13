@@ -8,7 +8,7 @@ marval_heros.push(dc_heros)
 // Output: [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
 
 // const allHeros = marval_heros.concat(dc_heros)
-// console.log(allHeros);
+console.log(allHeros);
 
 const all_new_heros = [...marval_heros,...dc_heros]
 // console.log(all_new_heros);
