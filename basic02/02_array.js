@@ -21,3 +21,11 @@ const all_new_heros = [...marval_heros,...dc_heros]
 
 // console.log(Array.isArray(marval_heros));
 // console.log(Array.from("Abishek")); // Split strings and make array
+
+console.log(Array.from({name:"Hitesh"})); // Interesting
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));
