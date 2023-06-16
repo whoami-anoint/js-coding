@@ -20,10 +20,14 @@ const JsUser = {
 // console.log(JsUser[mySym]);
 
 JsUser.email = "anoint@google.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
+
+// value will not change after freeze
 
 JsUser.email = "anoint@github.com"
-console.log(JsUser.email);
+// console.log(JsUser);
 
-const equality = []==[]
-console.log(equality);
+JsUser.greeting = function(){
+    console.log("Hello world");
+}
+console.log(JsUser.greeting);
