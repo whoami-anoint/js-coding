@@ -57,7 +57,13 @@ const {price:cost} = course // destructure the object; or price renamed as cost 
 // console.log(cost);
 
 {
-    "name" = "Abishek",
-    "coursename" = "js tutorials",
-    "price"="free"
+    "name" : "Abishek",
+    "coursename": "js tutorials",
+    "price":"free"
 }
+
+[
+    {},
+]
+
+// https://randomuser.me/
