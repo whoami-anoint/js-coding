@@ -37,7 +37,8 @@ const users = [
 
 // console.log(users);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser)); // to get keys from the object
+// console.log(Object.values(tinderUser)); // to get values of the keys in the object
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('name')); // conform the keys are exists or not
+
