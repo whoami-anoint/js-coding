@@ -33,7 +33,8 @@ let userGroup = ["Abhi","Abhishek","Anoint"]
 
 // console.log(loginuserMessage()); // user is undefined here
 
-function logOn(username = "Abhi"){
+/*
+function logOn(username = "Abhi"){ // here we give username "Abhi" by default
     if(!username){
         console.log("Please enter your username: ");
         return
@@ -42,3 +43,5 @@ function logOn(username = "Abhi"){
 }
 console.log(logOn());
 console.log(logOn("Abishek"))
+*/
+// When we give default username in the function there will be no undefined.
