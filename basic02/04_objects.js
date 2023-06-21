@@ -42,3 +42,22 @@ const users = [
 // console.log(Object.entries(tinderUser));
 // console.log(tinderUser.hasOwnProperty('name')); // conform the keys are exists or not
 
+const course = {
+    coursename: "js tutorials",
+    price: 999,
+    courseInstructor: "anoint"
+}
+// console.log(course.courseInstructor);
+// console.log(course["courseInstructor"]);
+
+// const {price}= course
+// console.log(price);
+
+const {price:cost} = course // destructure the object; or price renamed as cost here
+// console.log(cost);
+
+{
+    "name" = "Abishek",
+    "coursename" = "js tutorials",
+    "price"="free"
+}
