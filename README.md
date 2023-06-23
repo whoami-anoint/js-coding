@@ -1,4 +1,5 @@
 # js-coding
+## You can also practice JavaScript in Codespaces: 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/whoami-anoint/js-coding)
 
  ## I'm sharing my notes of "Basic JavaScript" in github as a online reference. 
