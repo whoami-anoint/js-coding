@@ -41,11 +41,11 @@ let result = add(10,2)
 
 ## Call Stacks
 
-three()
-two()
-one()
+* three()
+* two()
+* one()
 
 Global Execution
 
-// Last In First Out (LIFO)
+- [ ] Last In First Out (LIFO)
 
