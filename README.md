@@ -13,6 +13,12 @@
 - [X] <a href = "basic01/datatypes_summary.js">Data Types Summary</a>
 
 
-- <a href = "basic01">Basic 02</a>
+- <a href = "basic02">Basic 02</a>
+- [X] <a href = "basic02/01_array.js">Array in Js</a>
+- [X] <a href = "basic02/02_array.js">Array details in Js</a>
+- [X] <a href = "basic02/03_objects.js">Objects in Js</a>
+- [X] <a href = "basic02/04_objects.js">Object details in Js</a>
+
+
 - <a href = "basic03">Basic 03</a>
 - <a href = "basic04">Basic 04</a>
