@@ -47,3 +47,5 @@ function firstValue(getArray){
     return getArray[0]
 }
 console.log(firstValue);
+
+console.log(globalThis);
