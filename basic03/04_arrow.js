@@ -1,14 +1,14 @@
-const user = {
-    username: "anoint",
-    price: 999,
-    isLogged : true,
+// const user = {
+//     username: "anoint",
+//     price: 999,
+//     isLogged : true,
 
 //     welcomeMessage: function(){
 //         console.log(`${this.username}, welcome to this website`);
 //         console.log(this); // prints current context
 
 //     }
-}
+// }
 
 
 // user.welcomeMessage()
@@ -32,3 +32,8 @@ console.log(addTwo(5,7));
 const sleepTime = () => console.log("goodnight dada");
 sleepTime()
 */
+
+// implicit recursion
+(() => console.log("Good night dada!"))();
+
+(() => console.log("Hello world"))()
