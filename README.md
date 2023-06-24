@@ -23,7 +23,7 @@
 
  ## <a href = "basic03">Basic 03</a>
  - [X] <a href = "basic03/01_functions.js">Functions in JavaScript</a>
-- [X] <a href = "basic03/02_functions.js">Function details in JavaScript</a>
+- [X] <a href = "basic03/02_functions.js">Functions details in JavaScript</a>
 - [X] <a href = "basic03/03_scopes.js">Scope in JavaScript</a>
 - [X] <a href = "basic03/04_arrow.js">Arrow Function in JavaScript</a>
 - [X] <a href = "basic03/05_iife.js">Immediately Invoked Function Expression (IIFE)</a>
