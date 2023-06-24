@@ -16,7 +16,7 @@
 - [X] <a href = "01_basic/datatypes_summary.js">Data Types Summary in JavaScript</a>
 
 
-  ## <a href = "02_basic">Basic 02</a>
+## <a href = "02_basic">Basic 02</a>
 - [X] <a href = "02_basic/01_array.js">Array in JavaScript</a>
 - [X] <a href = "02_basic/02_array.js">Array details in JavaScript</a>
 - [X] <a href = "02_basic/03_objects.js">Objects in JavaScript</a>
