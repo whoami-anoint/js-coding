@@ -4,7 +4,7 @@
 
  ## I'm sharing my notes of "Basic JavaScript" in github as a online reference. 
 ## <a href = "basic01">Basic 01</a>
-- [X] <a href = "basic01/01_variables.js">Variables in JavaScript</a>
+- [X] <a href = "01_basic/01_variables.js">Variables in JavaScript</a>
 - [X] <a href = "basic01/02_datatypes.js">Data Types in JavaScript</a>
 - [X] <a href = "basic01/03_conversion.js">Conversion in JavaScript</a>
 - [X] <a href = "basic01/04_comparision.js">Comparision in JavaScript</a>
