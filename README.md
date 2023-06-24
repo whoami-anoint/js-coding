@@ -3,6 +3,8 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/whoami-anoint/js-coding)
 
  ## I'm sharing my notes of "Basic JavaScript" in github as a online reference. 
+ ![image](https://github.com/whoami-anoint/js-coding/assets/72187543/bb33a587-4775-4ead-8d1b-25b72a9cba80)
+
 ## <a href = "01_basic">Basic 01</a>
 - [X] <a href = "01_basic/01_variables.js">Variables in JavaScript</a>
 - [X] <a href = "01_basic/02_datatypes.js">Data Types in JavaScript</a>
