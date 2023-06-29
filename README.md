@@ -40,5 +40,6 @@
 
 ## <a href = "05_iteration">Iteration</a>
 - [X] <a href = "05_iteration/one.js">For Loop in Javascript</a>
+- [X] <a href = "05_iteration/two.js">Do-While Loop in Javascript</a>
 
 
