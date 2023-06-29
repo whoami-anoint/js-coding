@@ -24,7 +24,7 @@
 
 
  ## <a href = "03_basic">Basic 03</a>
- - [X] <a href = "03_basic/01_functions.js">Functions in JavaScript</a>
+- [X] <a href = "03_basic/01_functions.js">Functions in JavaScript</a>
 - [X] <a href = "03_basic/02_functions.js">Functions details in JavaScript</a>
 - [X] <a href = "03_basic/03_scopes.js">Scope in JavaScript</a>
 - [X] <a href = "03_basic/04_arrow.js">Arrow Function in JavaScript</a>
@@ -33,3 +33,12 @@
 
  
 ## <a href = "04_controlFlow">Control Flow</a>
+- [X] <a href = "04_controlFlow/one.js">If-else statement in JavaScript</a>
+- [X] <a href = "04_controlFlow/switch.js">Switch Statement in JavaScript</a>
+- [X] <a href = "04_controlFlow/one.js">If-else statement in JavaScript</a>
+- [X] <a href = "04_controlFlow/truthy.js">Truthy and Fasly in JavaScript</a>
+
+## <a href = "05_iteration">Iteration</a>
+- [X] <a href = "05_iteration/one.js">For Loop in Javascript</a>
+
+
