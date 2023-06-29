@@ -39,6 +39,6 @@
 - [X] <a href = "04_controlFlow/truthy.js">Truthy and Fasly in JavaScript</a>
 
 ## <a href = "05_iteration">Iteration</a>
-- [X] <a href = "05_iteration/one.js">For Loop in Javascript</a>
+- [X] <a href = "05_iteration/for.js">For Loop in Javascript</a>
 
 
