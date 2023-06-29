@@ -15,6 +15,9 @@
 
 
 // condition will be checked later in do-while loop
+// do while loop is rarely used;
+// usually we prefer to check condition first
+
 // let score = 1
 // do {
 //     console.log(`Score is ${score}`);
