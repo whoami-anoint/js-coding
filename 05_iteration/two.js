@@ -12,3 +12,11 @@
 //     console.log(`Value of array is ${myArray[arr]}`);
 //     arr++
 // }
+
+
+// condition will be checked later in do-while loop
+// let score = 1
+// do {
+//     console.log(`Score is ${score}`);
+//     score++
+// } while (score <=10);
