@@ -29,3 +29,14 @@ for (const [key,value] of map){
     console.log(key,':',value);
 }
 
+/*
+const myObject = {
+    game1: 'ludo',
+    game2: 'chess'
+}
+
+// for of doesn't work in myObject
+// for (const [key] of myObject){
+//     console.log(key);
+// }  
+*/
