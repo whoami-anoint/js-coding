@@ -53,6 +53,12 @@ const books = [
 
 //   console.log(userBooks);
 
-const userBooks = books.filter((items)=>items.publish===1992)
+const userBooks = books.filter((items)=>items.genre==="Science")
 
-console.log(userBooks); 
+// console.log(userBooks); 
+
+const userPublish = books.filter( (items)=>items.publish >=2000)
+// console.log(userPublish);
+
+const userBookPublish = books.filter( (items)=>items.publish >=1995 && items.genre ==="History")
+console.log(userBookPublish);
