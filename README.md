@@ -48,3 +48,6 @@
 - [X] <a href = "05_iteration/seven.js"> Map in Javascript</a>
 - [X] <a href = "05_iteration/eight.js"> Reduce in Javascript</a>
 - [X] <a href = "05_iteration/nine.js"> Reduce more details in Javascript</a>
+
+## <a href = "06_dom">DOM</a>
+- [X] <a href = "06_dom/one.html">Dom basic in JavaScript</a>
