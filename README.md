@@ -51,4 +51,5 @@
 
 ## <a href = "06_dom">DOM</a>
 - [X] <a href = "06_dom/one.html">Dom basic in JavaScript</a>
-- [X] <a href = "06_dom/two.html">Dom details in JavaScript</a>
+- [X] <a href = "06_dom/two.html">All DOM selectors NodeList and HTMLCollection in JavaScript</a>
+- [X] <a href = "06_dom/three.html">create a new element in DOM</a>
