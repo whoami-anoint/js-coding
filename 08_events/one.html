@@ -27,13 +27,32 @@
 // jquery
 
 //  Method 2: 
-    document.getElementById('japan').addEventListener('click',function(){
-        alert("Habibi come to Japan",false)
-    })
+    // document.getElementById('japan').addEventListener('click',function(){
+    //     alert("Habibi come to Japan")
+    // },false)
 
 // types, timestamp, defaultPrevented, srcElement, currentTarget
 // clientX, clientY, screenX, screenY
-// altkey,ctrlkey,shiftkey,keyCode, 
+// altkey,ctrlkey,shiftkey,keyCode,
+
+// document.getElementById('images').addEventListener('click',function(e){
+//         alert("Click inside the ul")
+//     },false)
+
+// document.getElementById('japan').addEventListener('click',function(e){
+//     alert("Habibi come to Japan")
+//     e.stopPropagation()
+//     },false)
+
+//  // by default it is false; if false called event bubbling (small to big event)
+//  // if true images first and japan second (alert)
+
+//  document.getElementById('google').addEventListener('click',function(e){
+//     console.log("Welcome to google");
+//     e.preventDefault()
+//     // e.stopPropagation();
+//  },false)
+
 
 </script>
 </html>
