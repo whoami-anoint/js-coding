@@ -10,21 +10,23 @@ const randomColour = function(){
 };
 // console.log(randomColour());
 
+let intervalId;
 const startChangingColor = function(){
-    setInterval(changeBgColor,1000);
-
+    if(!intervalId){
+       intervalId = setInterval(changeBgColor,1000);
+    }
+    
     function changeBgColor(){
         document.body.style.backgroundColor = randomColour()
     }
-}
+};
 
+const stopChangingColor = function(){
+    clearInterval(intervalId)
+    intervalId = null;
+}
 
 document.getElementById('start').addEventListener('click',startChangingColor);
 
-// const stopChangingColor = stop(startChangingColor)
-
-const letstop = document.getElementById('stop').addEventListener('click',function(){
-    clearID()
-    console.log("Interval stopped");
-});
+document.getElementById('stop').addEventListener('click',stopChangingColor);
 
