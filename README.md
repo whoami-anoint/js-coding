@@ -57,3 +57,4 @@
 
 ## <a href=08_events>Events</a>
 - [X] <a href= "08_events/one.html">Events in JavaScript</a>
+- [X] <a href= "08_events/one.html">setTimeout in JavaScript</a>
