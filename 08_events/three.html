@@ -14,7 +14,24 @@
     const sayDate = function(str){
         console.log(str,Date.now());
     }
-    setInterval(sayDate,1000,"hi")
+
+    const StartInterval = function(){
+        intervalId = setInterval(sayDate,1000,"hi")
+    }
+
+    const clearID = function(){
+        clearInterval(intervalId)
+    }
+
+    const letStart = document.getElementById('start').addEventListener('click',function(){
+        StartInterval()
+        console.log(intervalId)
+    })
+    
+    const letStop = document.getElementById('stop').addEventListener('click',function(){
+        clearID()
+        console.log("Interval stopped");
+    })
    </script>
 </body>
 </html>
