@@ -18,6 +18,7 @@ const startChangingColor = function(){
     }
 }
 
+
 document.getElementById('start').addEventListener('click',startChangingColor);
 
 // const stopChangingColor = stop(startChangingColor)
