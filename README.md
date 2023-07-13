@@ -55,3 +55,5 @@
 - [X] <a href = "06_dom/three.html">Create a new element in DOM</a>
 - [X] <a href = "06_dom/three.html">Edit and remove elements in DOM</a>
 
+## <a href=08_events>Events</a>
+- [X] <a href= "08_events/one.html">Events in JavaScript</a>
