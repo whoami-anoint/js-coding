@@ -55,7 +55,10 @@
 - [X] <a href = "06_dom/three.html">Create a new element in DOM</a>
 - [X] <a href = "06_dom/three.html">Edit and remove elements in DOM</a>
 
-## <a href=08_events>Events</a>
+## <a href="08_events">Events</a>
 - [X] <a href= "08_events/one.html">Events in JavaScript</a>
 - [X] <a href= "08_events/two.html">setTimeout in JavaScript</a>
 - [X] <a href= "08_events/three.html">setInterval in JavaScript</a>
+
+## <a href="09_advanced">Advance JavaScript</a>
+- [X] <a href= "09_advanced/ApiRequest.html">API Request in JavaScript</a>
