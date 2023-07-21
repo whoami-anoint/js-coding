@@ -6,16 +6,37 @@
     <title>API Request</title>
 </head>
 <body style="background-color:#212121;">
-    0 	UNSENT 	Client has been created. open() not called yet.
+    <!-- 0 	UNSENT 	Client has been created. open() not called yet.
 1 	OPENED 	open() has been called.
 2 	HEADERS_RECEIVED 	send() has been called, and headers and status are available.
 3 	LOADING 	Downloading; responseText holds partial data.
-4 	DONE 	The operation is complete.
+4 	DONE 	The operation is complete. -->
+<button id="followers">Followers</button>
+<button id="profile">Profile</button>
 </body>
 <script>
     const requestUrl = 'https://api.github.com/users/whoami-anoint'
     const xhr = new XMLHttpRequest()
     xhr.open('GET',requestUrl)
-    xhr.send()
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+    if (xhr.readyState === 4 ) {
+        const data = JSON.parse(this.responseText)
+        // console.log(data);
+        console.log(data.avatar_url);
+
+        const followers = data.followers
+        document.getElementById('followers').addEventListener('click',function(e){
+        alert(data.followers)
+    })
+        document.getElementById('profile').addEventListener('click',function(e){
+        a = document.getElementById('profile').innerHTML = '<img src="https://avatars.githubusercontent.com/u/72187543?v=4">'
+    })
+
+    }
+
+    
+}
+    xhr.send();
 </script>
 </html>
