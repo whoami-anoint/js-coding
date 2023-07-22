@@ -62,3 +62,4 @@
 
 ## <a href="09_advanced">Advance JavaScript</a>
 - [X] <a href= "09_advanced/ApiRequest.html">API Request in JavaScript</a>
+- [X] <a href= "09_advanced/promises.js">Promises in JavaScript</a>
