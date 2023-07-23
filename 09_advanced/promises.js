@@ -73,3 +73,20 @@ async function consumePromiseFIve(){
     }
 }
 consumePromiseFIve()
+
+// async function getAllusers(){
+//   const response = await fetch('https://randomuser.me/api/')
+//   console.log(response);
+//   const data = await response.json()
+//   console.log(data);
+// }
+
+// getAllusers()
+
+
+fetch('https://randomuser.me/api/')
+.then((response)=>{
+    return response.json()
+})
+.then((data)=>{console.log(data);})
+.catch((error)=> console.log(error))
